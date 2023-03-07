@@ -21,7 +21,21 @@ plt.ylabel('y-axis')
 plt.title('Title')
 plt.legend()
 plt.grid(True)
-plt.show()
+
+
+HANDLES:
+name your handles with a comma after the name
+example
+time = (0,120,10)
+top_speed = [ 100, 200, 300 ]
+car_number = [ 1 , 2 , 3 ]
+
+top_speeds_time, = plt.plot(time,top_speed)
+car_number_time, =plt.plot(time,car_number)
+
+SAVE IT:
+('..'/foldername/otherfolder/plotname.png)
+
 
 SCATTER PLOT:
 Copy code
